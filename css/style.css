@@ -388,11 +388,11 @@ sub {
 /***** Hero section *****/
 
 .links {
-  display: flex;
+  display: list-item;
   align-items: center;
   justify-content: center;
-  font-family:proxima-nova;
-  font-weight: 700;
+  font-family: proxima-nova;
+  font-weight: 400;
 }
 
 .links a {
@@ -402,17 +402,19 @@ sub {
 
 .links li {
   padding: 20px;
+  text-align: center;
 }
 
 .hero h1 {
     font-family: proxima-nova, sans-serif;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 36px;
     color: #1D181F;
     letter-spacing: -2.27px;
     line-height: 92px;
     text-align: center;
     margin-bottom: 40px;
+    margin-top: 60px;
 }
 
 .hero h1 strong {
@@ -844,18 +846,7 @@ header a:hover {
 /***** MEDIA QUERIES -- NOTHING PAST THIS POINT *****/
 
 @media screen and (max-width: 768px) {
-    .hero h1 {
-        font-family: proxima-nova, sans-serif;
-        font-weight: 300;
-        text-align: center;
-        font-size: 36px;
-        color: #FFFFFF;
-        letter-spacing: -2.27px;
-        line-height: 48px;
-    }
-    .hero h1 strong {
-        font-weight: 700;
-    }
+
     .hero p {
         font-family: Georgia, serif;
         font-weight: light;
@@ -969,7 +960,7 @@ header a:hover {
     display: inline;
       justify-content: center;
       font-family:proxima-nova;
-      font-weight: 700;
+      font-weight: 400;
     }
 
     .links a {
