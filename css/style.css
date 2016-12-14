@@ -24,6 +24,8 @@ a {
 
 .bodybg {
     background-color: #F7F6F1;
+    background: url(../img/wave-bg-tan.png) no-repeat;
+    background-size: cover;
 }
 
 .pricingbg {
@@ -411,6 +413,19 @@ sub {
   margin-top: 40px;
 }
 
+.brand {
+  height: 200px;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+}
+
+.brand img {
+  margin: 0 auto;
+display: block;
+margin-top: 75px;
+}
+
 .hero h1 {
     font-family: proxima-nova, sans-serif;
     font-weight: 800;
@@ -433,6 +448,7 @@ sub {
     letter-spacing: 2px;
     text-align: center;
     font-size: 20px;
+    margin-bottom: 40px;
     text-transform: uppercase;
     color: rgba(29, 24, 31, 1);
 }
@@ -460,7 +476,7 @@ sub {
 }
 
 .hero-intro {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .hero {
